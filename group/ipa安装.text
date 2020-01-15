@@ -1,0 +1,21 @@
+安装必备工具 Pythonista 3(68元) shu(12元)
+
+0.把电脑上的ipa打包成zip，导入到shu中解压成ipa.然后导出到pythonista。按照1的步骤存放好。 手机抓的ipa包必须经过shu的标准化才能安装。非shu不可
+
+#extension玩法
+1.在pythonista新建一个脚本(共享里面的install ipa.py)，放在根目录中，用来启动https server服务器
+
+2.在pythonista设置中，找到Share Extension Shortcuts,添加步骤1脚本的快捷方式
+
+3.在shu的ipa界面,点击导出，选择pythonista，找到步骤3的快捷方式运行
+
+4.安装好，点击右上角X，关闭https server(很重要！！！！！！！！！！)
+
+#直接运行脚本玩法
+1.在pythonista的根目录建立一个文件夹ipa,必须叫这个名字。里面放置ipa包。命令为1.ipa。名字也是固定的
+
+2.在pythonista新建一个脚本(共享里面的install ipa.py)，放在根目录中，用来启动https server服务器
+
+3.运行2的脚本，并且按照1的情况把ipa放进去，注意文件夹的名字
+
+4.安装好，点击右上角X，关闭https server(很重要！！！！！！！！！！)
